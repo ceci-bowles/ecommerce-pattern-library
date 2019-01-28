@@ -3,4 +3,7 @@ theme: jekyll_patternbot
 
 
 patternbot:
+  title: "All the Buzz"
+  description: |
+    A small family owned local bee farm that produces and sells a sweet variety of products
   font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+CodePro:400,700"
