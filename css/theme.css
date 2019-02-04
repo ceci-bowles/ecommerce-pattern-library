@@ -14,13 +14,17 @@ html {
 }
 
 /* heading formatting */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: var(--font-primary);
   color: var(--color-secondary);
   font-weight: bold;
   font-style: normal;
 }
 
+h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+}
 /* list formatting */
 ul {
   font-family: var(--font-secondary);

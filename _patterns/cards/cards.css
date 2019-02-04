@@ -1,0 +1,30 @@
+.sale-card {
+  background-color: #fff;
+  border: 3px solid var(--color-secondary-light);
+}
+
+.border-top {
+  border-top: 3px solid var(--color-secondary-light);
+  margin: 0;
+  color: var(--color-secondary-medium);
+}
+
+.sale-card-sticker {
+  background-color: var(--color-primary);
+  color: #fff;
+  position: absolute;
+  width: 4em;
+  left: 3em;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 3px solid var(--color-secondary-light);
+}
+
+.add-btn {
+  position: absolute;
+  width: 5em;
+  right: 1em;
+  top: 1em;
+}

@@ -12,7 +12,22 @@ patternbot:
     accent: "--color-secondary"
     patterns:
       brand.logos: "--color-primary"
-      brand.colours: "#ffffff"
+      brand.colors: "white"
+      brand.typefaces: "white"
+      typography.size-adjustments: "white"
+      typography.vertical-spacing: "white"
+      typography.horizontal-spacing: "white"
+      typography.font-sizes: "white"
+      typography.headings: "white"
+      typography.links: "white"
+      typography.lists: "white"
+      typography.quotations: "white"
+      typography.emphasis-and-edits: "white"
+      typography.typesetting: "white"
+      buttons.basic: "white"
+      buttons.ghost: "--color-primary"
+      buttons.light: "white"
+      cards: "white"
   rationales:
     typefaces.primary: |
       Roboto was selected because it is a clean geometric font that reflects the clean geometric bee hive. Roboto is to be used in headers throughout the website, botton text, links or call to actions, and navigation. It will mostly be used in a bold font weight so to be easily readable and clear on a website.
