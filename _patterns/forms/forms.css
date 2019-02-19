@@ -1,0 +1,27 @@
+.colour label {
+ color: #fff;
+ background-color: transparent;
+}
+
+.colour input, select {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.honey-options label {
+ color: var(--color-primary);
+ background-color: transparent;
+}
+
+.honey-options select {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.honey-options input {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}

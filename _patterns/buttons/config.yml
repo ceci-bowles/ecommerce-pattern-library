@@ -6,16 +6,24 @@ patterns:
   basic:
     title: "Basic"
     description: |
-    Default to using the basic button. It should always be used in front of light backgrounds.
+      Default to using the basic button. It should always be used in front of light backgrounds.
   light:
     title: "Light"
     description: |
-    Exception to using the basic button. It should always be used in front of dark backgrounds.
+      Exception to using the basic button. It should always be used in front of dark backgrounds.
   ghost:
     title: "Ghost"
     description: |
-    The ghost button is specifically for banners. It should always be used in front of dark backgrounds.
+      The ghost button is specifically for banners. It should always be used in front of dark backgrounds.
   ghost-dark:
     title: "Ghost Dark"
     description: |
-    The ghost dark button is specifically for banners. It should always be used in front of light backgrounds.
+      The ghost dark button is specifically for banners. It should always be used in front of light backgrounds.
+  add:
+    title: "Add"
+    description: |
+      The add button is for cards only and is to be used to add items to the cart.
+  subtract:
+    title: "Subtract"
+    description: |
+      The subtract button is for cards only and is to be used to remove items from the cart.

@@ -14,7 +14,7 @@
   color: #fff;
   position: absolute;
   width: 4em;
-  left: 3em;
+  left: 2em;
 }
 
 .product-card {
@@ -25,6 +25,6 @@
 .add-btn {
   position: absolute;
   width: 5em;
-  right: 1em;
+  right: .5em;
   top: 1em;
 }

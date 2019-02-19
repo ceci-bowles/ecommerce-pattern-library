@@ -1,4 +1,51 @@
 .cosmetics-banner {
   color: #fff;
-  background-color: var(--color-secondary-medium);
+  bottom: 1em;
+  background-image: url("../../../images/bee.jpg");
+  background-size: cover;
+  background-position: right bottom;
+}
+
+.cosmetics-banner-background {
+  background-color: rgba(75, 74, 74, 0.7);
+}
+
+.about-banner {
+  color: #fff;
+  bottom: 1em;
+  background-image: url("../../../images/honey-thing.jpg");
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.about-banner-background {
+  background-color: rgba(188, 148, 52, 0.7);
+}
+
+.hive-banner {
+  color: #000;
+  bottom: 1em;
+  background-image: url("../../../images/hive.jpg");
+  background-size: cover;
+  background-position: right bottom;
+}
+
+.hive-banner-background {
+  background-color: rgba(250, 220, 149, 0.8);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .cosmetics-banner-background {
+    background-color: var(--color-secondary-medium);
+  }
+
+  .about-banner-background {
+    background-color: var(--color-primary);
+  }
+
+  .hive-banner-background {
+    background-color: var(--color-primary-light);
+  }
+
 }
