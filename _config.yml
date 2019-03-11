@@ -62,3 +62,7 @@ patternbot:
       The primary colours represent the natural bee yellows. they are mellow to evoke a non-jarring face to the website. These colours are to be used on the cards, banners and calls to action through out the website.
     colors.secondary: |
       The secondary colours are representative of the other colours associated with bees. These colours are sharp and clear so they will stand out against the mulled yellow tones. these colours are used in the navigation, text through out the website, and borders.
+    patternbot:
+      layouts:
+        default: |
+          The default layout should be used in every page for the website. It includes the primary header and the footer for the website
