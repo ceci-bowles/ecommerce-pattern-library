@@ -34,6 +34,14 @@ patternbot:
       cards.checkout-product-card: "white"
       banners.hive: "white"
       banners.cosmetics-banner: "white"
+        fields:
+          - name: heading
+            type: string
+            example: "The Sweetest Cosmetics"
+        fields:
+          - name: text
+            type: string
+            example: "Honey, get the greatest deals on sweet face masks, lip balms and tons more!"
       banners.about-banner: "white"
       forms.email: "black"
       forms.honey-option: "white"
@@ -47,6 +55,12 @@ patternbot:
       forms.phone-number: "white"
       forms.postal-code: "white"
       sections.section-header: "white"
+        title: "Section Header"
+        description: The section header should be used to denote most of the different sections of content, mainly product cards throughout the website.
+        fields:
+          - name: text
+            type: string
+            example: "process"
       sections.process-section: "white"
       sections.billing-address: "white"
       sections.shipping-address: "white"
@@ -62,6 +76,6 @@ patternbot:
       The primary colours represent the natural bee yellows. they are mellow to evoke a non-jarring face to the website. These colours are to be used on the cards, banners and calls to action through out the website.
     colors.secondary: |
       The secondary colours are representative of the other colours associated with bees. These colours are sharp and clear so they will stand out against the mulled yellow tones. these colours are used in the navigation, text through out the website, and borders.
-    layouts:
-      default: |
-        The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
+  layouts:
+    default: |
+      The default layout should be used in every page for the website. It includes the primary header and the footer of the website.

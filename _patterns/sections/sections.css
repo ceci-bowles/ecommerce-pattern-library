@@ -30,3 +30,8 @@ li:hover {
 .shipping-address {
   background-color: var(--color-primary);
 }
+
+.process-section {
+  max-width: 510px;
+  margin: auto;
+}
