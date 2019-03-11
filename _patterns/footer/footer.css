@@ -1,0 +1,37 @@
+.background-black {
+  background-color: var(--color-secondary);
+}
+
+.navigate {
+  border-bottom: 3px solid #fff;
+  background-color: var(--color-secondary);
+}
+
+.address {
+  color: #fff;
+}
+
+.location {
+  border-bottom: 3px solid #fff;
+}
+
+.newsletter {
+  color: #fff;
+}
+
+.social-media {
+  max-width: 15em;
+  margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .footer {
+    background-image: url("../images/pattern.svg");
+    background-size: 400px auto;
+    background-repeat: repeat-y;
+    background-position: right center;
+  }
+
+}

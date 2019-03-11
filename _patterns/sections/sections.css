@@ -1,0 +1,32 @@
+.section-header {
+  border-bottom: solid 2px var(--color-secondary-light);
+}
+.section-header-h2 {
+  color: var(--color-secondary-light);
+}
+
+.process-hover {
+  visibility: hidden;
+}
+
+li:hover .process-hover {
+  z-index: 50;
+  position: absolute;
+  visibility: visible;
+}
+
+li:hover {
+  z-index: 1;
+}
+
+.address-header-h2 {
+  color: #fff;
+}
+
+.billing-address {
+  background-color: var(--color-secondary-medium);
+}
+
+.shipping-address {
+  background-color: var(--color-primary);
+}
