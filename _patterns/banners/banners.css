@@ -8,6 +8,11 @@
 
 .cosmetics-banner-background {
   background-color: rgba(75, 74, 74, 0.7);
+  transition: all 200ms linear;
+}
+
+.cosmetics-banner:hover .cosmetics-banner-background {
+  background-color: var(--color-secondary-medium);
 }
 
 .about-banner {
@@ -20,18 +25,49 @@
 
 .about-banner-background {
   background-color: rgba(188, 148, 52, 0.7);
+  transition: all 200ms linear;
 }
 
+.about-banner:hover .about-banner-background {
+  background-color: var(--color-primary);
+}
+
+
 .hive-banner {
-  color: #000;
+  color: var(--color-secondary);
   bottom: 1em;
   background-image: url("../../../images/hive.jpg");
   background-size: cover;
   background-position: right bottom;
 }
 
+.hive-banner:hover .hive-banner-background {
+  background-color: var(--color-primary-light);
+}
+
 .hive-banner-background {
   background-color: rgba(250, 220, 149, 0.8);
+  transition: all 200ms linear;
+}
+
+.banner-border {
+  border: 3px solid #fff;
+}
+
+.banner-border-black {
+  border: 3px solid var(--color-secondary);
+}
+
+.cosmetics-banner-colour {
+  transition: all 200ms linear;
+}
+
+.about-banner-colour {
+  transition: all 200ms linear;
+}
+
+.hive-banner-colour {
+  transition: all 200ms linear;
 }
 
 @media only screen and (min-width: 60em) {
@@ -46,6 +82,24 @@
 
   .hive-banner-background {
     background-color: var(--color-primary-light);
+  }
+
+  .banners-section {
+    margin-left: 2em;
+    margin-right: 2em;
+
+  }
+
+  .cosmetics-banner-colour:hover {
+    background-color: rgba(75, 74, 74, 0.7);
+  }
+
+  .about-banner-colour:hover {
+    background-color: rgba(188, 148, 52, 0.7);
+  }
+
+  .hive-banner-colour:hover {
+    background-color: rgba(250, 220, 149, 0.8);
   }
 
 }

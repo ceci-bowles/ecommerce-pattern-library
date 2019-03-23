@@ -1,10 +1,16 @@
-<div class="grid about-banner">
-  <div class="unit xs-0 s-1-2 m-1-2 l-2-3 xl-2-3"></div>
-  <div class="unit xs-1 s-1-2 m-1-2 l-1-3 xl-1-3">
-    <div class="about-banner-background pad-t-2 pad-b-2 gutter">
-      <h4 class="text-upper pad-t-1-2">see what the buzz is about</h4>
-      <p>Check out our wide variety of quality honey products. 100% natural and delicious!</p>
-      {% pattern buttons/ghost %}
+<div class="banners-section about-banner">
+  <div class="grid about-banner-colour">
+    <div class="unit xs-0 s-1-2 m-1-2 l-2-3 xl-2-3"></div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3">
+      <div class="about-banner-background island-1-2">
+        <div class="island-1-2 banner-border">
+          <h4 class="text-upper pad-t-1-2">{{include.heading}}</h4>
+          <p>{{include.text}}</p>
+          {% if include.button_url %}
+            {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+          {% endif %}
+        </div>
+      </div>
     </div>
   </div>
 </div>

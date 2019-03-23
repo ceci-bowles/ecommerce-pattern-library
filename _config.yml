@@ -6,7 +6,7 @@ patternbot:
   title: "All the Buzz"
   description: |
     We are a small family owned local bee farm that produces and sells a sweet variety of products to fit all your honey needs.
-  font_url: "https://fonts.googleapis.com/css?family=Roboto:400,700"
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Roboto:400,400i,900"
   colors:
     background: "--color-primary-light"
     accent: "--color-secondary"
@@ -34,14 +34,6 @@ patternbot:
       cards.checkout-product-card: "white"
       banners.hive: "white"
       banners.cosmetics-banner: "white"
-        fields:
-          - name: heading
-            type: string
-            example: "The Sweetest Cosmetics"
-        fields:
-          - name: text
-            type: string
-            example: "Honey, get the greatest deals on sweet face masks, lip balms and tons more!"
       banners.about-banner: "white"
       forms.email: "black"
       forms.honey-option: "white"
@@ -55,12 +47,6 @@ patternbot:
       forms.phone-number: "white"
       forms.postal-code: "white"
       sections.section-header: "white"
-        title: "Section Header"
-        description: The section header should be used to denote most of the different sections of content, mainly product cards throughout the website.
-        fields:
-          - name: text
-            type: string
-            example: "process"
       sections.process-section: "white"
       sections.billing-address: "white"
       sections.shipping-address: "white"
@@ -79,3 +65,11 @@ patternbot:
   layouts:
     default: |
       The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
+  collections:
+    products:
+      output: true
+  defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

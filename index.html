@@ -1,15 +1,18 @@
 ---
 layout: default
+highlight_nav: home
 ---
 
-{% pattern sections/section-header %}
+{% pattern sections/section-header heading="process" %}
 
 {% pattern sections/process-section %}
 
-{% pattern banners/cosmetics-banner %}
+{% pattern banners/cosmetics-banner button_text="See More" button_url="/products/" heading="the sweetest cosmetics" text="Honey, get the greatest deals on sweet face masks, lip balms and tons more!" %}
 
-{% pattern banners/about-banner %}
+{% pattern banners/about-banner button_text="See More" button_url="/about/"  heading="see what the buzz is about" text="Check out our wide variety of quality honey products. 100% natural and delicious!" %}
 
-{% pattern banners/hive %}
+{% pattern banners/hive button_text="Read More" button_url="/products/" heading="the hive" text="Get to know the busy bees behind our great company! Learn about our process, team and the hard workers in the hive!" %}
 
-{% pattern sections/section-header %}
+{% pattern sections/section-header heading="sale products" %}
+
+{% pattern sections/sale-cards %}

@@ -29,10 +29,26 @@
   top: 1em;
 }
 
-@media only screen and (min-width: 25em) {
+.sale-card:hover {
+ animation: move .2s forwards;
+}
 
-  .content {
-    padding-left: 1em;
+@media only screen and (min-width: 60em) {
+
+  .sale-card {
+    margin: 0;
+  }
+
+}
+
+@keyframes wiggle {
+
+  start {
+    transform: translateX(-2em);
+  }
+
+  end {
+    transform: translateX(-4em);
   }
 
 }

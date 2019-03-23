@@ -1,3 +1,8 @@
 ---
 layout: default
+highlight_nav: products
 ---
+
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}

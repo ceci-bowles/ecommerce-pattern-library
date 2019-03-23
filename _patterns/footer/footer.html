@@ -8,10 +8,10 @@
     </ul>
   </nav>
   <div class="grid location gutter">
-    <div class="unit xs-1 s-1-2 m-1-3 l-1-3 xl-1-3 pad-b pad-t">
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3 xl-1-3 pad-b pad-t">
       <img class="img-flex" src="/../images/map.png" alt="">
     </div>
-    <div class="unit xs-1 s-1-2 m-1-3 l-1-3 xl-1-3 pad-b pad-t gutter-1-2">
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-3 xl-1-3 pad-b pad-t gutter-1-2">
       <h5 class="text-upper address">Come visit us!</h5>
       <address class="address push">
         All the Buzz Honey Shop
@@ -22,18 +22,21 @@
       <p class="newsletter push-0">T: (613)211-2121</p>
       <p class="newsletter">E: allthebuzz@gmail.com</p>
     </div>
-  </div>
-  <div class="grid gutter">
-    <div class="unit xs-1 s-1 m-2-3 newsletter">
-      <h4 class="text-upper pad-t-2 push-0">Sign up for our newsletter</h4>
-      <p class="font-weight-normal">Get up to date on all the latest events, news and products of All The Buzz!</p>
+    <div class="unit xs-1 s-1 m-1 l-1-3 newsletter">
+      <h4 class="text-upper pad-t push-0">Sign up for our newsletter</h4>
+      <p class="font-weight-normal micro">Get up to date on all the latest events, news and products of All The Buzz!</p>
       {% pattern forms/email %}
+      <div class="pad-t-1-2 pad-b-1-2">
+        {% pattern buttons/light %}
+      </div>
     </div>
-    <div class="unit xs-1 s-1 m-1-3 newsletter text-center ">
+  </div>
+  <div class="grid  ggutter">
+    <div class="unit xs-1 s-1 m-1 newsletter text-center ">
       <i class="icon i-96">
         <a href="index.html" class="current"><img class="gutter-1-2 text-upper img-flex" src="/images/yellow-bee-logo.svg" alt="close navigation"></a>
       </i>
-      <p class="text-upper micro text-center block">find us on social media</p>
+      <p class="text-upper micro text-center block push-0">find us on social media</p>
       <div class="social-media">
         <img class="gutter-2 text-upper img-flex" src="/images/social-media.svg" alt="close navigation">
       </div>

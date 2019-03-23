@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards should be used throughout the website to represent selectable content that will lead to seperate parts of the website or represent selected content.
+
+patterns:
+  product-card:
+    description: |
+      The product card is used on the product page to displat each availibe product.
+    fields:
+    - name: heading
+      type: string
+      example: "500g select honey"
+    - name: data
+      type: price
+      data: 12.50
+        source: "site.products[0]"
+        type: Product

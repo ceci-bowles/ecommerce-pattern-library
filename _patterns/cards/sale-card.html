@@ -1,12 +1,21 @@
-<div class="sale-card">
+<div class="sale-card relative">
   <div class="sale-card-sticker">
     <h4 class="text-upper text-center push-0 normal pad-t-1-2 pad-b-1-2">15% off</h4>
   </div>
-  <div class="pad-b-1-2 add-btn">
-    {% pattern buttons/add %}
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-3 l-1 xl-1 island-1-4 sale-card-content">
+      <img class="img-flex" src="/images/honey/goldenrod-honey-small.jpg">
+    </div>
+    <div class="unit xs-1 s-1 m-2-3 l-1 xl-1 content">
+      <div class="pad-b-1-2 add-btn">
+        {% pattern buttons/add %}
+      </div>
+      <h4 class="text-upper push-0 pad-t pad-b-1-2 gutter-1-2">500g select honey</h4>
+      <p class="text-upper milli gutter-1-2 push-0">CDN${{include.data.price}} & FREE SHIPPING</p>
+      <div class="grid unit xs-1 s-1 m-2-3 l-1 xl-1 gutter-1-2 pad-b-1-2">
+        {% pattern forms/honey-option %}
+        {% pattern forms/quantity %}
+      </div>
+    </div>
   </div>
-  <div class="island-1-4 sale-card-content">
-    <img class="img-flex" src="/images/goldenrod-honey-small.jpg">
-    <h4 class="text-upper text-center push-0 border-top pad-t pad-b-1-2">500g select honey</h4>
-  </div>
-<div>
+</div>

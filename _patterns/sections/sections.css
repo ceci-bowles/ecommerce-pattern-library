@@ -1,22 +1,8 @@
 .section-header {
-  border-bottom: solid 2px var(--color-secondary-light);
+  border-bottom: solid 3px var(--color-secondary-light);
 }
 .section-header-h2 {
   color: var(--color-secondary-light);
-}
-
-.process-hover {
-  visibility: hidden;
-}
-
-li:hover .process-hover {
-  z-index: 50;
-  position: absolute;
-  visibility: visible;
-}
-
-li:hover {
-  z-index: 1;
 }
 
 .address-header-h2 {
@@ -34,4 +20,16 @@ li:hover {
 .process-section {
   max-width: 510px;
   margin: auto;
+}
+
+.process-section-text {
+  display: none;
+}
+
+.process-section li:hover .process-section-text {
+  display: block;
+}
+
+.process-section li:hover .process-section-image {
+  display: none;
 }

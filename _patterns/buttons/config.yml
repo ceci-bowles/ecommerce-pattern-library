@@ -15,6 +15,13 @@ patterns:
     title: "Ghost"
     description: |
       The ghost button is specifically for banners. It should always be used in front of dark backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/crystals/"
   ghost-dark:
     title: "Ghost Dark"
     description: |

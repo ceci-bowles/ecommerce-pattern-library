@@ -3,9 +3,14 @@
   background: linear-gradient(to bottom, rgba(240, 221, 189, 0.65), rgba(240, 221, 189, 0.65)), url("../images/beehive.jpg") center center;
 }
 
-.relative {
-
-  background-position: ;
+.cart a {
+  background-color: var(--color-secondary);
+  color: #fff;
+  position: fixed;
+  width: 4em;
+  right: 2em;
+  visibility: hidden;
+  z-index: 100;
 }
 
 .background-black {
@@ -16,16 +21,45 @@ li a {
   text-decoration: none;
   list-style-type: none;
   color: #fff;
-  font-weight: normal;
+  font-weight: 400;
+  transition: all 200ms linear;
 }
 
-li a:hover {
+nav li a:hover {
   color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
 }
 @media only screen and (min-width: 25em) {
 
   .logo a {
     padding-right: 4em;
+  }
+
+  .cart img {
+    position: fixed;
+    width: 4em;
+    right: 2em;
+  }
+
+  .cart a {
+    background-color: var(--color-secondary);
+    color: #fff;
+    visibility: visible;
+    transition: all 200ms linear;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .cart a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo a img {
+    max-height: 8em
   }
 
 }

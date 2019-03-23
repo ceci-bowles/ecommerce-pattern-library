@@ -1,0 +1,12 @@
+title: "Sections"
+description: |
+  Sections should be used throughout the website to represent different parts of content.
+patterns:
+  section-header:
+    title: "Section Header"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+    - name: heading
+      type: string
+      example: "process"
+    - name: text
