@@ -5,6 +5,10 @@
   color: var(--color-secondary-light);
 }
 
+.process-header-h2 {
+  color: var(--color-secondary-medium);
+}
+
 .address-header-h2 {
   color: #fff;
 }
@@ -32,4 +36,9 @@
 
 .process-section li:hover .process-section-image {
   display: none;
+}
+
+.product-details-image {
+  border: solid 3px var(--color-secondary-light);
+  background-color: #fff;
 }

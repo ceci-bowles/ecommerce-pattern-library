@@ -4,6 +4,9 @@ description: |
 
 patterns:
   cosmetics-banner:
+    title: "Basic"
+    description: |
+      The cosmetics banner should
     fields:
       - name: heading
         type: string

@@ -5,7 +5,7 @@ description: |
 patterns:
   product-card:
     description: |
-      The product card is used on the product page to displat each availibe product.
+      The product card is used on the product page to display each availibe product.
     fields:
     - name: heading
       type: string
@@ -15,3 +15,13 @@ patterns:
       data: 12.50
         source: "site.products[0]"
         type: Product
+  sale-card:
+    description: |
+      The product card is used on the home page to display each availibe product that currently has a reduced price.
+    fields:
+    - name: heading
+      type: string
+      example: "500g select honey"
+    - name: data
+      type: price
+      example: 10.50

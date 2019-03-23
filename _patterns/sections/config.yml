@@ -5,8 +5,30 @@ patterns:
   section-header:
     title: "Section Header"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
-    - name: heading
-      type: string
-      example: "process"
-    - name: text
+      Standard section header for most of the sections throughout the website. It should always be used in front of light backgrounds.
+    fields:
+      - name: heading
+        type: string
+        example: "process"
+  product-header:
+    title: "Product Header"
+    description: |
+      Standard section header for most of the sections throughout the website. It should always be used in front of light backgrounds.
+    fields:
+      - name: heading
+        type: string
+        example: "honey"
+  product-options-section:
+    title: "Product Options Section"
+    description: |
+      Standard section header for most of the sections throughout the website. It should always be used in front of light backgrounds.
+    fields:
+      - name: heading
+        type: string
+        example: "honey"
+      - name: title
+        type: string
+        example: "cosmetics"
+      - name: text
+        type: string
+        example: "candles"

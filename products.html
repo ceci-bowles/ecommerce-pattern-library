@@ -2,7 +2,10 @@
 layout: default
 highlight_nav: products
 ---
+{% pattern sections/section-header heading="products" %}
 
-{% for product in site.products %}
-  {% pattern cards/product-card data=product %}
-{% endfor %}
+{% pattern sections/product-options-section heading="honey" title="cosmetics" text="candles" %}
+
+{% pattern banners/cosmetics-banner button_text="See More" button_url="/products/" heading="bee natural" text="All our products are 100% natural! Don't believe us? See for yourself!" %}
+
+{% pattern sections/product-header heading="honey" %}

@@ -50,14 +50,18 @@ patternbot:
       sections.process-section: "white"
       sections.billing-address: "white"
       sections.shipping-address: "white"
+      sections.product-header: "white"
+      sections.product-details: "white"
+      sections.product-options-section: "white"
+      sections.sale-cards: "white"
       header.header: "white"
       footer.footer: "white"
       icons.icons: "--color-secondary"
   rationales:
     typefaces.primary: |
-      Roboto was selected because it is a clean geometric font that reflects the clean geometric bee hive. Roboto is to be used in headers throughout the website, botton text, links or call to actions, and navigation. It will mostly be used in a bold font weight so to be easily readable and clear on a website.
+      Montserrat is to be used in headers throughout the website, button text, links or call to actions, and navigation. It will mostly be used in a bold font weight so to be easily readable and clear on a website. It was selected because it is a clean geometric font that reflects the clean geometric bee hive.
     typefaces.secondary: |
-      Lato is the selected font for all paragraphs and/or small sections of less relavent text. This font was selected because it was clean and concise to reflect the clean and classy look of the overall website.
+      Roboto is the selected font for all paragraphs and/or small sections of less relavent text. This font was selected because it was clean and concise to reflect the clean and structured look of the overall website.
     colors.primary: |
       The primary colours represent the natural bee yellows. they are mellow to evoke a non-jarring face to the website. These colours are to be used on the cards, banners and calls to action through out the website.
     colors.secondary: |
@@ -65,6 +69,8 @@ patternbot:
   layouts:
     default: |
       The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
+    product: |
+      The product layout should be used in every page for the website. It includes the primary header and the footer of the website.
   collections:
     products:
       output: true
