@@ -42,3 +42,16 @@
   border: solid 3px var(--color-secondary-light);
   background-color: #fff;
 }
+
+a {
+  --color-products: var(--color-primary);
+}
+
+a:hover {
+  --color-products: var(--color-secondary-medium);
+}
+
+a:hover h2{
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+}

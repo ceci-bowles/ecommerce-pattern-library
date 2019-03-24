@@ -1,8 +1,8 @@
 .sale-card {
   background-color: #fff;
   border: 3px solid var(--color-secondary-light);
+  transition: all 200ms linear;
 }
-
 .border-top {
   border-top: 3px solid var(--color-secondary-light);
   margin: 0;
@@ -17,11 +17,6 @@
   left: 2em;
 }
 
-.product-card {
-  background-color: #fff;
-  border: 3px solid var(--color-secondary-light);
-}
-
 .add-btn {
   position: absolute;
   width: 5em;
@@ -30,7 +25,8 @@
 }
 
 .sale-card:hover {
- animation: move .2s forwards;
+  transform: translate(0, -3px);
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, .5));
 }
 
 @media only screen and (min-width: 60em) {

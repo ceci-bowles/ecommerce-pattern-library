@@ -54,6 +54,10 @@ nav li a:hover {
     color: var(--color-primary);
     text-decoration: underline;
   }
+
+  .cart a:hover #cart {
+    fill: var(--color-primary);
+  }
 }
 
 @media only screen and (min-width: 60em) {

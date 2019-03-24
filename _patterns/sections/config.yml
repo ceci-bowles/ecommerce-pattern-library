@@ -18,6 +18,9 @@ patterns:
       - name: heading
         type: string
         example: "honey"
+      - name: icon
+        type: string
+        example: "honey"
   product-options-section:
     title: "Product Options Section"
     description: |
