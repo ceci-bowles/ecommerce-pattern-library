@@ -5,7 +5,7 @@ description: |
 patterns:
   product-card:
     description: |
-      The product card is used on the product page to display each availibe product.
+      The product card is used on the product page to display each availibe product. There are three types of products: cosmetics,honey, and candles.
     fields:
     - name: heading
       type: string

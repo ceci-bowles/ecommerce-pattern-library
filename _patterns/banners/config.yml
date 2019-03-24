@@ -4,9 +4,9 @@ description: |
 
 patterns:
   cosmetics-banner:
-    title: "Basic"
+    title: "Cosmetics Banner"
     description: |
-      The cosmetics banner should
+      The cosmetics banner should be used on the home page to inform web visitors of the cosmetic products that the company provides. It is also used once in the products page to direct viewers to the cosmetics products.
     fields:
       - name: heading
         type: string
@@ -23,6 +23,9 @@ patterns:
         example: "/products/"
         required: false
   about-banner:
+    title: "About Banner"
+    description: |
+      The about banner should be used on the home page to inform web visitors of the 100% natural products that the company provides. It links to the products page.
     fields:
       - name: heading
         type: string
@@ -39,6 +42,9 @@ patterns:
         example: "/about/"
         required: false
   hive:
+    title: "Hive Banner"
+    description: |
+      The hive banner should be used on the home page to inform web visitors of the team and bees behind the making of the  products that the company provides. It links to the about page.
     fields:
       - name: heading
         type: string

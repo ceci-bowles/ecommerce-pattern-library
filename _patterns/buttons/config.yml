@@ -7,10 +7,24 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
+    feilds:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/products/"
   light:
     title: "Light"
     description: |
       Exception to using the basic button. It should always be used in front of dark backgrounds.
+    feilds:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/products/"
   ghost:
     title: "Ghost"
     description: |
@@ -21,11 +35,18 @@ patterns:
         example: "See More"
       - name: url
         type: url
-        example: "/crystals/"
+        example: "/products/"
   ghost-dark:
     title: "Ghost Dark"
     description: |
       The ghost dark button is specifically for banners. It should always be used in front of light backgrounds.
+    feilds:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/products/"
   add:
     title: "Add"
     description: |

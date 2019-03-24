@@ -9,3 +9,7 @@ highlight_nav: products
 {% pattern banners/cosmetics-banner button_text="See More" button_url="/products/" heading="bee natural" text="All our products are 100% natural! Don't believe us? See for yourself!" %}
 
 {% pattern sections/product-header heading="honey" %}
+
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}
