@@ -8,7 +8,7 @@ highlight_nav: products
 
 {% pattern banners/cosmetics-banner button_text="See More" button_url="/products/" heading="bee natural" text="All our products are 100% natural! Don't believe us? See for yourself!" %}
 
-{% pattern sections/product-header  icon="honey" heading="honey" id="honey" %}
+{% pattern sections/product-header icon="honey" heading="honey" id="honey" %}
 
 <div class="grid gutter">
   {% for product in site.products %}
@@ -20,7 +20,7 @@ highlight_nav: products
   {% endfor %}
 </div>
 
-{% pattern sections/product-header  icon="cosmetics" heading="cosmetics" %}
+{% pattern sections/product-header  icon="cosmetics" heading="cosmetics" id="cosmetics" %}
 
 <div class="grid gutter">
   {% for product in site.products %}
@@ -32,7 +32,7 @@ highlight_nav: products
   {% endfor %}
 </div>
 
-{% pattern sections/product-header  icon="candles" heading="candles" %}
+{% pattern sections/product-header  icon="candles" heading="candles" id="candles"%}
 
 <div class="grid gutter">
   {% for product in site.products %}
