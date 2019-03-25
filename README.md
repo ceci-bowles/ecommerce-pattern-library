@@ -19,3 +19,20 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 
 ---
+
+## Referencing website design
+
+View mood-board at:[https://projects.invisionapp.com/boards/VP3S6NVWR9G/](https://projects.invisionapp.com/boards/VP3S6NVWR9G/)
+
+View flowchart of the website at: ![](/assets/flowchart.png)
+
+View wireframe of the website at:(/assets/wiref.png)
+
+View quick images of the product description page at:
+
+Netlify Website link:
+---
+
+## Collaborators
+
+- [@jasmineCT](https://github.com/jasmineCT)

@@ -71,11 +71,11 @@ patternbot:
       The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
     product: |
       The product layout should be used in every page for the website. It includes the primary header and the footer of the website.
-  collections:
-    products:
-      output: true
-  defaults:
-  - scope:
-      path: _products
-    values:
-      layout: product
+collections:
+  products:
+    output: true
+defaults:
+- scope:
+    path: _products
+  values:
+    layout: product

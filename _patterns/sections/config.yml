@@ -5,7 +5,7 @@ patterns:
   section-header:
     title: "Section Header"
     description: |
-      Standard section header for most of the sections throughout the website. It should always be used in front of light backgrounds.
+      The standard section header is used to indicate most of the sections throughout the website. It should always be used in front of light backgrounds.
     fields:
       - name: heading
         type: string
@@ -13,7 +13,7 @@ patterns:
   product-header:
     title: "Product Header"
     description: |
-      Standard section header for most of the sections throughout the website. It should always be used in front of light backgrounds.
+      The product header should be used on only on the product page to indicate different kinds of products offered by the company. The icons for the header switch out depending on the product.
     fields:
       - name: heading
         type: string
@@ -21,10 +21,13 @@ patterns:
       - name: icon
         type: string
         example: "honey"
+      - name: id
+        type: string
+        example: "honey"
   product-options-section:
     title: "Product Options Section"
     description: |
-      Standard section header for most of the sections throughout the website. It should always be used in front of light backgrounds.
+      The products option section is used throughout the website to direct the customer to specified types of products so to simplify their search. This section is used on the product page and the product details page. It should jump to the section of the products page that has that kind of product.
     fields:
       - name: heading
         type: string

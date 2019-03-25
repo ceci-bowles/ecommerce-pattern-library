@@ -5,4 +5,5 @@ description: |
 image: "/images/honey/honey-drops.jpg"
 cost: 15.50
 quantity: 20
+category: honey
 ---

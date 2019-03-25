@@ -11,4 +11,5 @@ flavors:
   - "Sweet Clover"
   - "Golden Rod"
   - "Thistle"
+category: honey
 ---

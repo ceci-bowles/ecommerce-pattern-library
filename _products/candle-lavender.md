@@ -7,4 +7,5 @@ height: 4
 width: 3
 burn-time: 20
 cost: 15.50
+category: candles
 ---
