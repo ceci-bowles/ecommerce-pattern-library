@@ -1,3 +1,7 @@
+## Collaborators
+
+- [@jasmineCT](https://github.com/jasmineCT)
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -24,15 +28,12 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 View mood-board at:[https://projects.invisionapp.com/boards/VP3S6NVWR9G/](https://projects.invisionapp.com/boards/VP3S6NVWR9G/)
 
-View flowchart of the website at: ![](/assets/flowchart.png)
+View flowchart of the website at: ![flowchart](/assets/flowchart.png)
 
-View wireframe of the website at:(/assets/wiref.png)
+View wireframe of the website at:[wireframe](/assets/wireframes.xd)
 
-View quick images of the product description page at:
+View quick images of the product description page at: [screenshots of product description page](/screenshots/products-page-large.png)
 
-Netlify Website link:
+Netlify Website link:[local host website](https://adoring-booth-49a005.netlify.com/pattern-library)
+
 ---
-
-## Collaborators
-
-- [@jasmineCT](https://github.com/jasmineCT)
