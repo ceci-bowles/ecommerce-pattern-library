@@ -6,6 +6,6 @@ image: "/images/candle/candle-lavender.jpg"
 height: 4
 width: 3
 burn-time: 20
-cost: 15.50
+cost: 15.55
 category: candles
 ---

@@ -12,11 +12,17 @@
 
 .add-btn {
   color: var(--color-primary);
+  transition: all 200ms linear;
 }
 
 .add-btn:hover {
-  color: var(--color-secondary-medium);
+  transform: translate(0, -2px);
 }
+
+.add-btn:active {
+  transform: translate(0, 4px);
+}
+
 
 .btn-ghost {
   background-color: transparent;

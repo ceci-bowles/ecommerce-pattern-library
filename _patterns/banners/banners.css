@@ -24,7 +24,7 @@
 }
 
 .about-banner-background {
-  background-color: rgba(188, 148, 52, 0.7);
+  background-color: rgba(188, 148, 52, 0.6);
   transition: all 200ms linear;
 }
 
@@ -95,7 +95,7 @@
   }
 
   .about-banner-colour:hover {
-    background-color: rgba(188, 148, 52, 0.7);
+    background-color: rgba(188, 148, 52, 0.6);
   }
 
   .hive-banner-colour:hover {

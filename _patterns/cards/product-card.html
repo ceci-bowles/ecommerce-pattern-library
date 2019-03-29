@@ -1,16 +1,19 @@
-<div class="sale-card relative">
+<div class="sale-card relative push">
   <div class="pad-b-1-2 add-btn">
-    {% pattern buttons/add %}
+    {% pattern buttons/add button_url=include.data.url %}
   </div>
   <div class="island-1-4 sale-card-content">
     <img class="img-flex" src="{{include.data.image}}">
     <h4 class="text-upper text-center push-0 border-top pad-t pad-b-1-2">{{include.data.name}}</h4>
-    <p class="text-center pad-b-1-2 push-0">${{include.data.cost}}</p>
+    <p class="text-center pad-b-1-2 push-0">CDN ${{include.data.cost}} & FREE SHIPPING</p>
     <div class="gutter-1-2">
       {% pattern forms/honey-option %}
     </div>
     <div class="gutter-1-2 pad-b-1-2">
       {% pattern forms/quantity %}
+    </div>
+    <div class="gutter-1-2 pad-b-1-2 text-center">
+      {% pattern buttons/basic include.button_text %}
     </div>
   </div>
 </div>
