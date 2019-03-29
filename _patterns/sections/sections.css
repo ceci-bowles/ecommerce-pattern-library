@@ -28,6 +28,11 @@
 
 .process-section-text {
   display: none;
+  transition: all 200ms linear;
+}
+
+.process-section li {
+  transition: all 200ms linear;
 }
 
 .process-section li:hover .process-section-text {
