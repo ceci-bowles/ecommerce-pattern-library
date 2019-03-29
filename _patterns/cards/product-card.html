@@ -1,6 +1,6 @@
 <div class="sale-card relative">
   <div class="pad-b-1-2 add-btn">
-    {% pattern buttons/add button_url="/layouts/product.html" %}
+    {% pattern buttons/add button_url=include.data.url %}
   </div>
   <div class="island-1-4 sale-card-content">
     <img class="img-flex" src="{{include.data.image}}">

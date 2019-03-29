@@ -20,7 +20,7 @@
 .add-btn {
   position: absolute;
   width: 5em;
-  right: .5em;
+  right: -25px;
   top: 1em;
 }
 

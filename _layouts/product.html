@@ -12,7 +12,8 @@ layout: default
     <div class="unit xs-1 s-1 m-1-2 l-2-3 xl-2-3">
       <h4 class="text-upper push-0 pad-t gutter-1-2">{{page.name}}</h4>
       <p class="text-upper milli gutter-1-2 push-1-4">CDN$ {{page.cost}} & FREE SHIPPING</p>
-      <p>{{page.burn-time}}</p>
+      <p class="milli gutter-1-2 push-0">Burn Time: {{page.burn-time}} hrs</p>
+      <p class="milli gutter-1-2 push-0 push-1-4">Size: {{page.height}}"x{{page.width}}"</p>
       <p class="gutter-1-2 micro push-1-2">{{page.description}}</p>
       <div class="grid unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2 pad-b-1-2">
         {% pattern forms/honey-option %}

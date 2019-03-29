@@ -38,3 +38,17 @@ patterns:
       - name: text
         type: string
         example: "candles"
+  product-details:
+    title: "Product Details"
+    description: |
+      The products option section is used throughout the website to direct the customer to specified types of products so to simplify their search. This section is used on the product page and the product details page. It should jump to the section of the products page that has that kind of product.
+    fields:
+      - name: heading
+        type: string
+        example: "honey"
+      - name: title
+        type: string
+        example: "cosmetics"
+      - name: text
+        type: string
+        example: "candles"

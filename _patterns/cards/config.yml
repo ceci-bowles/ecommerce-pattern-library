@@ -19,9 +19,12 @@ patterns:
     - name: heading
       type: string
       example: "500g select honey"
-    - name: data
-      type: price
+    - name: price
+      type: string
       example: 10.50
+    - name: image
+      type: string
+      example: "500g select honey"
   checkout-product-card:
     description: |
       The checkout product card is used on the checkout page to display each of the customer's selected products. They are above to payment form for them and can be removed by hitting the subtract card.
