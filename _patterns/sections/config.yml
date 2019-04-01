@@ -52,3 +52,14 @@ patterns:
       - name: text
         type: string
         example: "candles"
+  breadcrumb:
+    title: "Breadcrumbs Header"
+    description: |
+      The breadcrumbs header is used on te products detail page to indicate the product that the user is on and an option to return back to the products page. It is to be placed at the top of the product information page of the website.
+    fields:
+      - name: heading
+        type: string
+        example: "products"
+      - name: text
+        type: string
+        example: "500g Select Honey"
