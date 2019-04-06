@@ -25,3 +25,20 @@
   background-color: transparent;
   border-color: var(--color-primary);
 }
+
+.checkout-options label {
+ color: var(--color-secondary-medium);
+ background-color: transparent;
+}
+
+.checkout-options select {
+  color: var(--color-secondary-medium);
+  background-color: transparent;
+  border-color: var(--color-secondary-medium);
+}
+
+.checkout-options input {
+  color: var(--color-secondary);
+  background-color: transparent;
+  border-color: var(--color-secondary);
+}

@@ -36,4 +36,20 @@ View quick images of the product description page at: [screenshots of product de
 
 Netlify Website link:[local host website](https://adoring-booth-49a005.netlify.com/pattern-library)
 
+Screenshots of Website:[screenshots](/screenshots/checkout-page-large.png)
+
+---
+
+## Designing Products Page
+
+---
+
+## Designing Checkout Page
+
+The design for the checkout page should be executed in:[checkout page](ecommerce-pattern-library/checkout.html)
+
+1. Look at references for the checkout page design in the screenshots folder and or the Xd wireframes in the assets folder (linked above in references).
+2. Look at the pattern library sections and card page to find the necessary sections or cards to place into the checkout page.
+
+3. Copy and place sections.
 ---

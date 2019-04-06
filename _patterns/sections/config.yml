@@ -24,6 +24,17 @@ patterns:
       - name: id
         type: string
         example: "honey"
+  breadcrumb:
+    title: "Breadcrumbs Header"
+    description: |
+      The breadcrumbs header is used on te products detail page to indicate the product that the user is on and an option to return back to the products page. It is to be placed at the top of the product information page of the website.
+    fields:
+      - name: heading
+        type: string
+        example: "products"
+      - name: text
+        type: string
+        example: "500g Select Honey"
   product-options-section:
     title: "Product Options Section"
     description: |
@@ -38,6 +49,10 @@ patterns:
       - name: text
         type: string
         example: "candles"
+  process-section:
+      title: "Process Section"
+      description: |
+        The process section is a part of the website that informs users on the process in which the honey that the website sells is made. It is purely informational and is only used on the home page of the website.
   product-details:
     title: "Product Details"
     description: |
@@ -52,14 +67,31 @@ patterns:
       - name: text
         type: string
         example: "candles"
-  breadcrumb:
-    title: "Breadcrumbs Header"
+  sale-cards:
+    title: "Sale Card Details"
     description: |
-      The breadcrumbs header is used on te products detail page to indicate the product that the user is on and an option to return back to the products page. It is to be placed at the top of the product information page of the website.
-    fields:
-      - name: heading
-        type: string
-        example: "products"
-      - name: text
-        type: string
-        example: "500g Select Honey"
+      The sale card details section is to inform website users of current on-sale items that the company is offering. It is only used at the bottom of the home page.
+  billing-address:
+    title: "Billing Adress Header for Checkout"
+    description: |
+      The billing address header is used to signify the start of the form to fill out billing information on the checkout page.
+  shipping-address:
+    title: "Shipping Adress Header for Checkout"
+    description: |
+      The shipping address header is used to signify the start of the form to fill out shipping information on the checkout page.
+  payment-method:
+    title: "Payment Method Header for Checkout"
+    description: |
+      The payment method header is used to signify the start of the form to fill out payment method information on the checkout page.
+  billing-section:
+    title: "Billing Section for Checkout"
+    description: |
+      The billing section is a form to fill out billing information on the checkout page.
+  shipping-section:
+    title: "Shipping Section for Checkout"
+    description: |
+      The shipping section is a form to fill out shipping information on the checkout page.
+  check-out-section:
+    title: "Checkout Section for Checkout"
+    description: |
+      The checkout section is a form to fill out payment method information on the checkout page and proceed to checkout.

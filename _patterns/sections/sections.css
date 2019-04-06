@@ -21,6 +21,11 @@
   background-color: var(--color-primary);
 }
 
+.payment-method {
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary);
+}
+
 .process-section {
   max-width: 510px;
   margin: auto;
