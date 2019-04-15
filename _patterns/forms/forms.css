@@ -42,3 +42,7 @@
   background-color: transparent;
   border-color: var(--color-secondary);
 }
+
+a:focus {
+  outline: 3px solid #000;
+}

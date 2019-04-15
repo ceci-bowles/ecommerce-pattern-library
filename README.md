@@ -1,7 +1,7 @@
 ## Collaborators
 
 - [@jasmineCT](https://github.com/jasmineCT)
-- [@]()
+- [@tylerhearon](https://github.com/tylerhearon)
 
 ## Installation
 

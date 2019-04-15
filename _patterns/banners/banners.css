@@ -70,6 +70,10 @@
   transition: all 200ms linear;
 }
 
+a:focus {
+  outline: 3px solid #000;
+}
+
 @media only screen and (min-width: 60em) {
 
   .cosmetics-banner-background {

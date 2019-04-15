@@ -59,3 +59,7 @@
   color: var(--color-secondary);
   border-color: var(--color-secondary-light);
 }
+
+a:focus {
+  outline: 3px solid #000;
+}
