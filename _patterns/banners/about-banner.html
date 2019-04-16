@@ -7,7 +7,7 @@
           <h4 class="text-upper pad-t-1-2">{{include.heading}}</h4>
           <p>{{include.text}}</p>
           {% if include.button_url %}
-            {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+            {% pattern buttons/ghost text=include.button_text url=include.button_url aria="Go to about page" %}
           {% endif %}
         </div>
       </div>

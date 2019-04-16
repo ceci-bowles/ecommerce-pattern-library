@@ -14,6 +14,9 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"
   light:
     title: "Light"
     description: |
@@ -25,6 +28,9 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"
   ghost:
     title: "Ghost"
     description: |
@@ -36,6 +42,9 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"
   ghost-dark:
     title: "Ghost Dark"
     description: |
@@ -47,6 +56,9 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"
   add:
     title: "Add"
     description: |

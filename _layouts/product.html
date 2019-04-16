@@ -23,7 +23,7 @@ layout: default
         {% endif %}
         {% pattern forms/quantity %}
         {% capture checkout_url %}/checkout/{{page.slug}}/{% endcapture %}
-        {% pattern buttons/basic heading="Add to Cart" url=checkout_url %}
+        {% pattern buttons/basic heading="Add to Cart" url=checkout_url aria="Add product to checkout page" %}
       </div>
     </div>
   </div>

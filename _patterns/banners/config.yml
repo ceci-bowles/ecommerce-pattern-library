@@ -39,7 +39,7 @@ patterns:
         required: false
       - name: button_url
         type: url
-        example: "/about/"
+        example: "/products/"
         required: false
   hive:
     title: "Hive Banner"
@@ -58,5 +58,5 @@ patterns:
         required: false
       - name: button_url
         type: url
-        example: "/products/"
+        example: "/index/"
         required: false
