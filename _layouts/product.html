@@ -2,23 +2,28 @@
 layout: default
 ---
 {% pattern sections/breadcrumb heading="products" text="500g Select Honey" %}
-<div class="relative">
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3 island-1-2 sale-card-content">
+<div class="relative" role="main">
+  <div class="grid grid-stretch">
+    <div class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-3 xl-1-3 island-1-2 sale-card-content">
       <div class="product-details-image island-1-4">
         <img class="img-flex" src="{{page.image}}">
       </div>
     </div>
-    <div class="unit xs-1 s-1 m-1-2 l-2-3 xl-2-3">
+    <div class="unit unit-content-distribute xs-1 s-1 m-1-2 l-2-3 xl-2-3">
       <h4 class="text-upper push-0 pad-t gutter-1-2">{{page.name}}</h4>
       <p class="text-upper milli gutter-1-2 push-1-4">CDN$ {{page.cost}} & FREE SHIPPING</p>
-      <p class="milli gutter-1-2 push-0">Burn Time: {{page.burn-time}} hrs</p>
-      <p class="milli gutter-1-2 push-0 push-1-4">Size: {{page.height}}"x{{page.width}}"</p>
+      {% if page.burn-time %}
+        <p class="milli gutter-1-2 push-0">Burn Time: {{page.burn-time}} hrs</p>
+        <p class="milli gutter-1-2 push-0 push-1-4">Size: {{page.height}}"x{{page.width}}"</p>
+      {% endif %}
       <p class="gutter-1-2 micro push-1-2">{{page.description}}</p>
       <div class="grid unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2 pad-b-1-2">
-        {% pattern forms/honey-option %}
+        {% if page.flavors %}
+          {% pattern forms/honey-option %}
+        {% endif %}
         {% pattern forms/quantity %}
-        {% pattern buttons/basic heading="Add to Cart" url="/checkout/" %}
+        {% capture checkout_url %}/checkout/{{page.slug}}/{% endcapture %}
+        {% pattern buttons/basic heading="Add to Cart" url=checkout_url %}
       </div>
     </div>
   </div>

@@ -79,8 +79,14 @@ patternbot:
 collections:
   products:
     output: true
+  checkout:
+    output: true
 defaults:
-- scope:
-    path: _products
-  values:
-    layout: product
+  - scope:
+      path: _products
+    values:
+      layout: product
+  - scope:
+      path: _checkout
+    values:
+      layout: checkout

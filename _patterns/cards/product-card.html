@@ -3,14 +3,8 @@
     {% pattern buttons/add button_url=include.data.url %}
   </div>
   <div class="island-1-4 sale-card-content">
-    <img class="img-flex" src="{{include.data.image}}">
+    <img class="img-flex unit" src="{{include.data.image}}">
     <h4 class="text-upper text-center push-0 border-top pad-t pad-b-1-2">{{include.data.name}}</h4>
-    <p class="text-center pad-b-1-2 push-0">CDN ${{include.data.cost}} & FREE SHIPPING</p>
-    <div class="gutter-1-2">
-      {% pattern forms/honey-option %}
-    </div>
-    <div class="gutter-1-2 pad-b-1-2">
-      {% pattern forms/quantity %}
-    </div>
+    <p class="text-center pad-b push-0">CDN ${{include.data.cost}} & FREE SHIPPING</p>
   </div>
 </div>

@@ -2,44 +2,48 @@
 layout: default
 highlight_nav: products
 ---
-{% pattern sections/section-header heading="products" %}
+<div role="main">
+  {% pattern sections/section-header heading="products" %}
 
-{% pattern sections/product-options-section heading="honey" title="cosmetics" text="candles" %}
+  {% pattern sections/product-options-section heading="honey" title="cosmetics" text="candles" %}
 
-{% pattern banners/cosmetics-banner button_text="See More" button_url="/products/" heading="bee natural" text="All our products are 100% natural! Don't believe us? See for yourself!" %}
-
-{% pattern sections/product-header icon="honey" heading="honey" id="honey" %}
-
-<div class="grid gutter">
-  {% for product in site.products %}
-  {% if product.category=="honey" %}
-  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
-    {% pattern cards/product-card data=product %}
+  {% pattern banners/cosmetics-banner button_text="See More" button_url="/products/" heading="bee natural" text="All our products are 100% natural! Don't believe us? See for yourself!" %}
+  <div class="gutter">
+  {% pattern sections/product-header icon="honey" heading="honey" id="honey" %}
   </div>
-  {% endif %}
-  {% endfor %}
-</div>
 
-{% pattern sections/product-header  icon="cosmetics" heading="cosmetics" id="cosmetics" %}
-
-<div class="grid gutter">
-  {% for product in site.products %}
-  {% if product.category=="cosmetics" %}
-  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
-    {% pattern cards/product-card data=product %}
+  <div class="grid gutter">
+    {% for product in site.products %}
+    {% if product.category=="honey" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] unit-content-distribute island-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
   </div>
-  {% endif %}
-  {% endfor %}
-</div>
-
-{% pattern sections/product-header  icon="candles" heading="candles" id="candles"%}
-
-<div class="grid gutter">
-  {% for product in site.products %}
-  {% if product.category=="candles" %}
-  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
-    {% pattern cards/product-card data=product %}
+  <div class="gutter">
+    {% pattern sections/product-header  icon="cosmetics" heading="cosmetics" id="cosmetics" %}
   </div>
-  {% endif %}
-  {% endfor %}
+
+  <div class="grid gutter grid-stretch">
+    {% for product in site.products %}
+    {% if product.category=="cosmetics" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] unit-content-distribute island-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="gutter">
+      {% pattern sections/product-header  icon="candles" heading="candles" id="candles"%}
+  </div>
+  <div class="grid gutter pad-b-2 grid-stretch">
+    {% for product in site.products %}
+    {% if product.category=="candles" %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] unit-content-distribute island-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>

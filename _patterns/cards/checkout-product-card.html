@@ -1,15 +1,17 @@
 <div class="grid relative border-bottom">
   <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4 sale-card-content product-card">
-    <img class="img-flex" src="/images/honey/500g-select-honey.jpg">
+    <img class="img-flex" src="{{include.data.image}}">
   </div>
   <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 content">
     <div class="pad-b-1-2 add-btn">
       {% pattern buttons/subtract %}
     </div>
-    <h4 class="text-upper push-0 pad-t pad-b-1-2">500g select honey</h4>
-    <p class="text-upper mega">CDN${{include.data.price}} & FREE SHIPPING</p>
+    <h4 class="text-upper push-0 pad-t pad-b-1-2">{{include.data.name}}</h4>
+    <p class="text-upper mega">CDN${{include.data.cost}} & FREE SHIPPING</p>
     <div class="grid unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
-      {% pattern forms/honey-option %}
+      {% if page.flavors %}
+        {% pattern forms/honey-option %}
+      {% endif %}
       {% pattern forms/quantity %}
     </div>
   </div>

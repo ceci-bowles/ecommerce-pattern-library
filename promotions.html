@@ -2,9 +2,11 @@
 layout: default
 highlight_nav: index
 ---
-<div class="pad-b">
-  {% pattern sections/section-header heading="Spring into Savings Newsletter" %}
+<div role="main">
+  <div class="pad-b">
+    {% pattern sections/section-header heading="Spring into Savings Newsletter" %}
+  </div>
+  {% pattern banners/cosmetics-banner heading="spring savings" text="Check out the sale deals coming in with the new season!" %}
+  {% pattern sections/sale-cards %}
+  {% pattern sections/table %}
 </div>
-{% pattern banners/cosmetics-banner heading="spring savings" text="Check out the sale deals coming in with the new season!" %}
-{% pattern sections/sale-cards %}
-{% pattern sections/table %}
